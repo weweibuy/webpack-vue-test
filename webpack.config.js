@@ -50,7 +50,7 @@ module.exports = {
         alias: {
             '@': path.resolve(__dirname, "./src")
         },
-        extensions: ['vue', 'js']
+        extensions: ['.vue', '.js']
     },
     devtool: "cheap-module-source-map", // 编译前后行映射关系, 方便快速定位报错行, 生产环境用 source-map
 
